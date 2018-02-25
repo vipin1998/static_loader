@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+main()
+{
+  int x;
+  cin>>x;
+  load("first.txt");
+  if( x%2 == 0)
+`	load("even.txt");
+  else
+	load("odd.txt");
+}
